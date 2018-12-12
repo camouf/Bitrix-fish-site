@@ -1,0 +1,57 @@
+.mfeedback {
+  width: 99%;
+  /* webkit */
+  /* Firefox 19+ */
+  /* Firefox 18- */
+  /* IE */ }
+  .mfeedback input[type="text"] {
+    width: 100%;
+    border: 1px #ddd solid;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 0px 10px; }
+  .mfeedback input[type="email"] {
+    width: 100%;
+    border: 1px #ddd solid;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 0px 10px; }
+  .mfeedback textarea {
+    width: 100%;
+    height: 200px;
+    padding: 0px 10px;
+    border: 1px #ddd solid;
+    margin-bottom: 20px; }
+  .mfeedback :focus::-webkit-input-placeholder {
+    opacity: 0; }
+  .mfeedback :focus::-moz-placeholder {
+    opacity: 0; }
+  .mfeedback :focus:-moz-placeholder {
+    opacity: 0; }
+  .mfeedback :focus:-ms-input-placeholder {
+    opacity: 0; }
+  .mfeedback label {
+    display: inline-block; }
+    .mfeedback label input {
+      display: inline-block; }
+  .mfeedback a {
+    display: inline-block; }
+  .mfeedback .clb {
+    clear: both;
+    height: 0;
+    width: 100%; }
+  .mfeedback input[type="submit"] {
+    background: green;
+    color: #ffffff;
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin-top: 15px; }
+    .mfeedback input[type="submit"]:disabled:hover {
+      cursor: not-allowed;
+      background: red; }
+    .mfeedback input[type="submit"]:hover {
+      cursor: pointer;
+      background: #428bca; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+<?
+$MESS["CP_SBB_TPL_PROPERTIES_RECALCULATE_BASKET"] = "Eigenschaften der Neuberechnung des Warenkorbs";
+$MESS["CP_SBB_TPL_THEME_SITE"] = "Standarddesign der Website nutzen (für bitrix.eshop)";
+$MESS["CP_SBB_TPL_THEME_BLUE"] = "Blau (Standardthema)";
+$MESS["CP_SBB_TPL_THEME_GREEN"] = "Grün";
+$MESS["CP_SBB_TPL_THEME_RED"] = "Rot";
+$MESS["CP_SBB_TPL_THEME_YELLOW"] = "Gelb";
+$MESS["CP_SBB_TPL_DEFERRED_REFRESH"] = "Modus der verzögerten Produktaktualisierung nutzen";
+$MESS["CP_SBB_TPL_SHOW_RESTORE"] = "Wiederherstellung von gelöschten Produkten aktivieren";
+$MESS["CP_SBB_TPL_TEMPLATE_THEME"] = "Farbdesign";
+$MESS["CP_SBB_TPL_TOTAL_BLOCK_DISPLAY"] = "Informationsbereich des Warenkorbs anzeigen";
+$MESS["CP_SBB_TPL_TOTAL_BLOCK_DISPLAY_TOP"] = "Oberhalb des Warenkorbs";
+$MESS["CP_SBB_TPL_TOTAL_BLOCK_DISPLAY_BOTTOM"] = "Unterhalb des Warenkorbs";
+$MESS["CP_SBB_TPL_SHOW_FILTER"] = "Produktfilter anzeigen";
+$MESS["CP_SBB_TPL_DISPLAY_MODE"] = "Modus der Ansicht des Warenkorbs";
+$MESS["CP_SBB_TPL_DISPLAY_MODE_EXTENDED"] = "Erweitert";
+$MESS["CP_SBB_TPL_DISPLAY_MODE_COMPACT"] = "Kompakt";
+$MESS["CP_SBB_TPL_PRICE_DISPLAY_MODE"] = "Preis in der individuellen Spalte anzeigen";
+$MESS["CP_SBB_TPL_PRODUCT_BLOCKS_ORDER"] = "Reihenfolge der Ansicht der Produktblöcke";
+$MESS["CP_SBB_TPL_USE_PRICE_ANIMATION"] = "Animierte Preise";
+$MESS["CP_SBB_TPL_PRODUCT_BLOCK_PROPERTIES"] = "Eigenschaften des Warenkorbs";
+$MESS["CP_SBB_TPL_PRODUCT_BLOCK_SKU"] = "Produktvariante";
+$MESS["CP_SBB_TPL_PRODUCT_BLOCK_COLUMNS"] = "Produkteigenschaften";
+$MESS["CP_SBB_TPL_USE_ENHANCED_ECOMMERCE"] = "E-Commerce Daten an Google senden";
+$MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Die Optionen Google Analytics Enhanced Ecommerce müssen dafür konfiguriert werden";
+$MESS["CP_SBB_TPL_DATA_LAYER_NAME"] = "Name des Datencontainers";
+$MESS["CP_SBB_TPL_BRAND_PROPERTY"] = "Eigenschaft des Markenzeichen";
+$MESS["CP_SBB_TPL_USE_DYNAMIC_SCROLL"] = "Weitere Produkte beim Scrollen laden";
+$MESS["SHOW_FILTER_TIP"] = "Sichtbar, wenn der ganze Bereich mit Produkten auf den Bildschirm nicht passt. Auf mobilen Geräten wird nicht genutzt.";
+$MESS["CP_SBB_TPL_COLUMNS_LIST_MOBILE"] = "Spalten für mobile Geräte";
+$MESS["CP_SBB_TPL_LABEL_PROP"] = "Eigenschaften der Produkttags";
+$MESS["CP_SBB_TPL_LABEL_PROP_MOBILE"] = "Eigenschaften der Produkttags für mobile Geräte";
+$MESS["CP_SBB_TPL_LABEL_PROP_POSITION"] = "Position der Produkttags";
+$MESS["CP_SBB_TPL_SHOW_DISCOUNT_PERCENT"] = "Rabattprozent neben dem Bild anzeigen";
+$MESS["CP_SBB_TPL_DISCOUNT_PERCENT_POSITION"] = "Position des Rabattprozents";
+?>

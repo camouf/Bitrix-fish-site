@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import "../../../../sass";
+
+
+.s_form {
+  margin-bottom: $hmargin;
+  width: 100%;
+  border-bottom: 2px $second solid;
+  height: 40px;
+  input[type="text"] {
+    float: left;
+    width: 70%;
+    height: 35px;
+    border:none;
+  }
+  input[type="submit"] {
+    float: right;
+    width: 27%;
+    background: $main;
+    border:none;
+    color: #ffffff;
+    height: 35px;
+  }
+}

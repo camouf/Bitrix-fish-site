@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import "../../../../sass.scss";
+
+.catalog_menu {
+  margin-top: 20px;
+  margin-bottom: $hmargin;
+  h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    a {
+      display: block;
+      background: $main;
+      padding: 15px 20px;
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border:2px $main solid;
+    position: relative;
+    li.first_level {
+      a {
+        color: $main;
+        font-weight: bold;
+        display: block;
+        font-size: 14px;
+        padding: 10px 20px;
+        border-bottom: 1px $second dotted;
+        span {
+          float: right;
+          color: #999999;
+          font-weight: 400;
+          font-size: 13px;
+        }
+      }
+
+      //Второй уровень
+      ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 300px;
+      }
+    }
+    li.second_level {
+      a {
+        img {
+        }
+        span {
+        }
+      }
+    }
+  }
+}

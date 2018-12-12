@@ -1,0 +1,17 @@
+ul.topmenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left; }
+  @media screen and (max-width: 768px) {
+    ul.topmenu {
+      text-align: center; } }
+  ul.topmenu li {
+    display: inline-block; }
+    ul.topmenu li a {
+      display: block;
+      padding: 0px 15px 0px 0px;
+      height: 30px;
+      line-height: 36px; }
+
+/*# sourceMappingURL=style.css.map */

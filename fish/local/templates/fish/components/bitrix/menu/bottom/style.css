@@ -1,0 +1,21 @@
+ul.bottom_menu {
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0; }
+  ul.bottom_menu li {
+    margin-bottom: 5px; }
+    ul.bottom_menu li a {
+      display: inline-block;
+      color: #ccc;
+      font-size: 13px;
+      text-decoration: none;
+      border-bottom: 1px #555 solid;
+      transition: all .25s ease-out;
+      -webkit-transition: all .25s ease-out;
+      -moz-transition: all .25s ease-out;
+      -o-transition: all .25s ease-out;
+      -ms-transition: all .25s ease-out; }
+      ul.bottom_menu li a:hover {
+        color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */

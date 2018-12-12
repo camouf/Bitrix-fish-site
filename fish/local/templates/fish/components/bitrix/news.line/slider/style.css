@@ -1,0 +1,106 @@
+.slider_big {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 30px; }
+
+ul#slider {
+  list-style: none;
+  padding: 0; }
+  ul#slider li a {
+    display: block;
+    width: 100%;
+    height: 450px;
+    transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out; }
+    ul#slider li a h4 {
+      color: #ffffff;
+      font-size: 60px;
+      font-weight: bold;
+      width: 50%;
+      margin: 0;
+      padding: 120px 0px 0px 100px; }
+    ul#slider li a span {
+      display: block;
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 27px;
+      width: 50%;
+      margin: 0;
+      padding: 30px 0px 0px 100px; }
+    ul#slider li a:hover {
+      text-decoration: none; }
+      ul#slider li a:hover h4 {
+        color: #f6f6f6;
+        text-decoration: underline; }
+
+span.controls {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+  display: block; }
+  span.controls a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 31px;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px #fff solid;
+    top: -250px;
+    transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out; }
+    @media screen and (max-width: 1200px) {
+      span.controls a {
+        top: -190px; } }
+    @media screen and (max-width: 992px) {
+      span.controls a {
+        top: -150px; } }
+    @media screen and (max-width: 768px) {
+      span.controls a {
+        display: none; } }
+    span.controls a.prevBtn {
+      left: 10px;
+      position: absolute; }
+    span.controls a.nextBtn {
+      right: 10px;
+      position: absolute; }
+    span.controls a:hover {
+      border: 2px #333 solid;
+      text-decoration: none; }
+
+ol.numericControls {
+  position: relative;
+  z-index: 100;
+  list-style: none;
+  text-align: center;
+  top: -50px;
+  margin: 0;
+  padding: 0; }
+  ol.numericControls li {
+    display: inline-block; }
+    ol.numericControls li a {
+      width: 15px;
+      display: block;
+      height: 15px;
+      text-decoration: none;
+      font-size: 0;
+      background: #fff;
+      border-radius: 50%;
+      margin: 0px 4px;
+      border: 2px #333 solid; }
+      @media screen and (max-width: 736px) {
+        ol.numericControls li a {
+          display: none; } }
+    ol.numericControls li.current a {
+      background: #333; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@mixin animation_0_25 {
+	transition: all .25s ease-out;
+	-webkit-transition: all .25s ease-out;
+	-moz-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	-ms-transition: all .25s ease-out;
+}
+@mixin box-sizing {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+@mixin box-shadow {
+	-webkit-box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5),0 1px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5),0 1px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.3),0 1px 0 rgba(0,0,0,0.1);
+}
+
+
+//Цвета
+$main: #333;
+$second: #ddd;
+$three: #f6f6f6;
+
+//Отступы
+$hmargin: 30px;

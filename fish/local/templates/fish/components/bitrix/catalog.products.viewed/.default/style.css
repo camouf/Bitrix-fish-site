@@ -1,0 +1,33 @@
+.you_view {
+  border: 2px #333 solid;
+  padding: 0px;
+  margin-bottom: 30px; }
+  .you_view h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 0px;
+    background: #333;
+    color: #ffffff; }
+
+a.w_item {
+  display: block;
+  border-bottom: 2px #ddd solid;
+  padding-bottom: 15px;
+  margin: 15px 20px; }
+  a.w_item img {
+    width: 90%; }
+  a.w_item span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold; }
+  a.w_item strong {
+    color: #333;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px; }
+  a.w_item:last-child {
+    border-bottom: none;
+    margin-bottom: 0px; }
+
+/*# sourceMappingURL=style.css.map */

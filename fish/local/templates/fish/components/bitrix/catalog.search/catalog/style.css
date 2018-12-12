@@ -1,0 +1,19 @@
+.s_form {
+  margin-bottom: 30px;
+  width: 100%;
+  border-bottom: 2px #ddd solid;
+  height: 40px; }
+  .s_form input[type="text"] {
+    float: left;
+    width: 70%;
+    height: 35px;
+    border: none; }
+  .s_form input[type="submit"] {
+    float: right;
+    width: 27%;
+    background: #333;
+    border: none;
+    color: #ffffff;
+    height: 35px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import "../../../../../../../sass";
+
+.fotos {
+  a {
+    img {
+      max-width: 100%;
+      border: 4px #fff solid;
+      box-shadow: 0px 0px 1px #999;
+    }
+  }
+}
+
+.info_detail {
+  h1 {
+    font-size: 21px;
+    margin: 0;
+    padding: 0px 0px $hmargin 0px;
+  }
+
+  ul {
+    list-style: none;
+    margin: $hmargin 0px;
+    padding: 0;
+    li {
+      border-bottom: 1px dotted $second;
+      font-size: 13px;
+      width: 100%;
+      height: 25px;
+      margin-bottom: 5px;
+      strong {
+        float: left;
+        display: block;
+      }
+      span {
+        @extend strong;
+        float: right;
+      }
+    }
+  }
+}
+
+.wish_compare {
+  a {
+    display: block;
+    strong {
+      span {
+
+      }
+      &.st1 {
+        display: block;
+      }
+      &.st2 {
+        display: none;
+      }
+    }
+    &.in_wishlist {
+      strong {
+        &.st1 {
+          display: none;
+        }
+        &.st2 {
+          display: block;
+        }
+      }
+    }
+  }
+  input.to_compare_inp {
+    position: absolute;
+    z-index: -1000;
+    left: -999999px;
+    display: none;
+  }
+  label {
+    strong {
+      span {
+
+      }
+      &.st1 {
+        display: block;
+      }
+      &.st2 {
+        display: none;
+      }
+    }
+  }
+  input[type="checkbox"]:checked + label {
+    strong {
+      &.st1 {
+        display: none;
+      }
+      &.st2 {
+        display: block;
+      }
+    }
+  }
+}
+
+.user_block {
+  text-align: center;
+  span {
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    padding-bottom: $hmargin;
+  }
+  form {
+    a {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 39px;
+      background: $second;
+      color: $main;
+    }
+    input[type="text"] {
+      width: 50px;
+      text-align: center;
+      height: 40px;
+      border:1px $second solid;
+      display: inline-block;
+      position: relative;
+      bottom: -1px;
+      @include animation_0_25;
+      &:hover {
+
+      }
+    }
+    input[type="submit"] {
+      margin-top: 10px;
+      width: 80%;
+      display: inline-block;
+    }
+  }
+}
+
+.detail_text {
+  margin: $hmargin 0px;
+}

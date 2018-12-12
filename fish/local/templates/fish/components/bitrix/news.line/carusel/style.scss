@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@import "../../../../sass.scss";
+
+.list_carousel {
+  margin-bottom: $hmargin;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      float: left;
+      width: 300px;
+      padding: 10px $hmargin 10px 0px;
+      span {
+        font-size: 12px;
+        color: #777;
+      }
+      h5 {
+        margin: 5px 0px;
+        padding: 0;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+  a.prev, a.next {
+    float: left;
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 31px;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0,0,0,0.7);
+    border: 2px $main solid;
+    top: -250px;
+    @include animation_0_25;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  a.all_news {
+    @extend a.prev;
+    width: 120px;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+}

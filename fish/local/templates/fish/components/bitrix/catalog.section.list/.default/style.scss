@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import "../../../../sass.scss";
+
+
+.section_list {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin-bottom: 3px;
+      a {}
+    }
+  }
+}

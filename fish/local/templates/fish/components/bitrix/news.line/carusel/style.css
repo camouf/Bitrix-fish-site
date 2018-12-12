@@ -1,0 +1,47 @@
+.list_carousel {
+  margin-bottom: 30px; }
+  .list_carousel ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .list_carousel ul li {
+      float: left;
+      width: 300px;
+      padding: 10px 30px 10px 0px; }
+      .list_carousel ul li span {
+        font-size: 12px;
+        color: #777; }
+      .list_carousel ul li h5 {
+        margin: 5px 0px;
+        padding: 0; }
+      .list_carousel ul li p {
+        font-size: 12px; }
+  .list_carousel a.prev, .list_carousel a.all_news, .list_carousel a.next {
+    float: left;
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 31px;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px #333 solid;
+    top: -250px;
+    transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out; }
+    @media screen and (max-width: 768px) {
+      .list_carousel a.prev, .list_carousel a.all_news, .list_carousel a.next {
+        display: none; } }
+    .list_carousel a.prev:hover, .list_carousel a.all_news:hover, .list_carousel a.next:hover {
+      text-decoration: none; }
+  .list_carousel a.all_news {
+    width: 120px;
+    font-size: 13px;
+    margin-left: 10px; }
+
+/*# sourceMappingURL=style.css.map */

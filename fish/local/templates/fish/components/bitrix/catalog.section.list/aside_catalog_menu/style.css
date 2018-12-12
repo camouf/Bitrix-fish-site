@@ -1,0 +1,40 @@
+.catalog_menu {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .catalog_menu h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px; }
+    .catalog_menu h4 a {
+      display: block;
+      background: #333;
+      padding: 15px 20px;
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase; }
+  .catalog_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 2px #333 solid;
+    position: relative; }
+    .catalog_menu ul li.first_level a {
+      color: #333;
+      font-weight: bold;
+      display: block;
+      font-size: 14px;
+      padding: 10px 20px;
+      border-bottom: 1px #ddd dotted; }
+      .catalog_menu ul li.first_level a span {
+        float: right;
+        color: #999999;
+        font-weight: 400;
+        font-size: 13px; }
+    .catalog_menu ul li.first_level ul {
+      display: none;
+      position: absolute;
+      top: 0;
+      height: 100vh;
+      width: 300px; }
+
+/*# sourceMappingURL=style.css.map */

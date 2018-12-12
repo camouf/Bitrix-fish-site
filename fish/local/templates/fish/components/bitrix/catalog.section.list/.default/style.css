@@ -1,0 +1,9 @@
+.section_list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .section_list ul li {
+    display: inline-block;
+    margin-bottom: 3px; }
+
+/*# sourceMappingURL=style.css.map */

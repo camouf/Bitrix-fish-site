@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import "../../../../sass.scss";
+
+
+.you_view {
+  border:2px $main solid;
+  padding: 0px;
+  margin-bottom: $hmargin;
+  h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 0px;
+    background: $main;
+    color: #ffffff;
+  }
+}
+a.w_item {
+  display: block;
+  border-bottom: 2px $second solid;
+  padding-bottom: 15px;
+  margin: 15px 20px;
+  img {
+    width: 90%;
+  }
+  span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  strong   {
+    color: $main;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+  }
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0px;
+  }
+}

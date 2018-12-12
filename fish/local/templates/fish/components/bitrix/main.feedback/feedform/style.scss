@@ -1,0 +1,80 @@
+//Стили формы
+
+.mfeedback {
+  width: 99%;
+  input[type="text"] {
+    width: 100%;
+    border: 1px #ddd solid;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+  }
+  input[type="email"] {
+    width: 100%;
+    border: 1px #ddd solid;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 0px 10px;
+    border: 1px #ddd solid;
+    margin-bottom: 20px;
+  }
+
+  //Прячем placeholder при активности поля
+  :focus::-webkit-input-placeholder {
+    opacity: 0;
+  }
+  /* webkit */
+  :focus::-moz-placeholder {
+    opacity: 0;
+  }
+  /* Firefox 19+ */
+  :focus:-moz-placeholder {
+    opacity: 0;
+  }
+  /* Firefox 18- */
+  :focus:-ms-input-placeholder {
+    opacity: 0;
+  }
+  /* IE */
+
+  label {
+    display: inline-block;
+    input {
+      display: inline-block;
+    }
+  }
+  a {
+    display: inline-block;
+  }
+  .clb {
+    clear: both;
+    height: 0;
+    width: 100%;
+  }
+  //Оформление кнопки "Отправить"
+  input[type="submit"] {
+    background: green;
+    color: #ffffff;
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin-top: 15px;
+    //Если не согласен- курсор с запретом и красный фон
+    &:disabled {
+      &:hover {
+        cursor: not-allowed;
+        background: red;
+      }
+    }
+    //Если согласен - зеленый фон и рука
+    &:hover {
+      cursor: pointer;
+      background: #428bca;
+    }
+  }
+}

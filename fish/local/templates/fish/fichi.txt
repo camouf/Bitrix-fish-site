@@ -1,0 +1,21 @@
+<?
+echo '<pre>'; print_r($arResutl); echo '</pre>';
+?>
+
+
+md
+@media screen and (max-width: 1200px) {
+
+}
+
+
+sm
+@media screen and (max-width: 992px) {
+
+}
+
+
+xs
+@media screen and (max-width: 768px) {
+
+}

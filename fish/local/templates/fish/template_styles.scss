@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import "sass.scss";
+
+body {
+  //Автопереносы по словарю
+  hyphens: auto;
+}
+
+a, u {
+  //Пропуск выносов у подчеркивания
+  text-decoration-skip: ink;
+}
+
+q {
+  //Кавычки у q
+  quotes: "«" "»";
+}
+
+.top_header {
+  width: 100%;
+  background: $three;
+  text-align: right;
+  padding-bottom: 8px;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+  a {
+    color: $main;
+    display: inline-block;
+    padding: 0px 0px 0px 10px;
+    height: 30px;
+    line-height: 36px;
+  }
+}
+
+.header {
+  a.logo {
+    display: block;
+    padding: 30px 0px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+a.wish_bask {
+  display: block;
+  float: right;
+  margin-left: 20px;
+  margin-top: $hmargin+20;
+  b {
+    font-size: 15px;
+    display: block;
+    color: $main;
+  }
+  i {
+    display: block;
+    font-style: normal;
+    color: $main+70;
+  }
+}
+
+.footer {
+  width: 100%;
+  margin-top: $hmargin;
+  background: $main;
+  padding: $hmargin 0px;
+
+  h5 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+    padding: 0px 0px 20px 0px;
+  }
+
+  strong {
+    color: #ddd;
+    font-size: 14px;
+    span {
+      color: #ffffff;
+      font-weight: 400;
+    }
+  }
+  p {
+    color: #dddd;
+    font-size: 13px;
+    margin: 0;
+    padding: 20px 0px;
+    line-height: 21px;
+  }
+  .ya-share2 {
+    margin-bottom: $hmargin;
+  }
+}

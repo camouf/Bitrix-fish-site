@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import "../../../../sass.scss";
+
+
+
+
+
+.slider_big {
+  width: 100%;
+  height: 450px;
+  margin-bottom: $hmargin;
+}
+ul#slider {
+  list-style: none;
+  padding: 0;
+  li {
+    a {
+      display: block;
+      width: 100%;
+      height: 450px;
+      @include animation_0_25;
+      h4 {
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: bold;
+        width: 50%;
+        margin: 0;
+        padding: 120px 0px 0px 100px;
+      }
+      span {
+        display: block;
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 27px;
+        width: 50%;
+        margin: 0;
+        padding: 30px 0px 0px 100px;
+      }
+      &:hover {
+        text-decoration: none;
+        h4 {
+          color: #f6f6f6;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+span.controls {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+  display: block;
+  a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 31px;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0,0,0,0.7);
+    border: 2px #fff solid;
+    top: -250px;
+    @include animation_0_25;
+    @media screen and (max-width: 1200px) {
+      top: -190px;
+    }
+    @media screen and (max-width: 992px) {
+      top: -150px;
+    }
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    &.prevBtn {
+      left: 10px;
+      position: absolute;
+    }
+    &.nextBtn {
+      right: 10px;
+      position: absolute;
+    }
+    &:hover {
+      border: 2px $main solid;
+      text-decoration: none;
+    }
+  }
+}
+
+ol.numericControls {
+  position: relative;
+  z-index: 100;
+  list-style: none;
+  text-align: center;
+  top: -50px;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    a {
+      width: 15px;
+      display: block;
+      height: 15px;
+      text-decoration: none;
+      font-size: 0;
+      background: #fff;
+      border-radius: 50%;
+      margin: 0px 4px;
+      border: 2px $main solid;
+      @media screen and (max-width: 736px) {
+        display: none;
+      }
+    }
+    &.current {
+      a {
+        background: $main;
+      }
+    }
+  }
+}
+
